@@ -9,7 +9,7 @@ class panet{
        float diameter;
 
        void displaydata(){
-        cout << "halo aku planet " << nama << ", ukuranku "<< diameter <<", gravitasiku "<< gravitasi << endl;
+        cout << " halo aku planet " << nama << ", ukuranku "<< diameter <<", gravitasiku "<< gravitasi << endl;
     
        }
        void inputdata(){
