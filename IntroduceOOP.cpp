@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class panet{
+class Planet{
    private:
        float gravitasi;
    public:
@@ -9,7 +9,7 @@ class panet{
        float diameter;
 
        void displaydata(){
-        cout << " halo aku planet " << nama << ", ukuranku "<< diameter <<", gravitasiku "<< gravitasi << endl;
+        cout  <<" gravitasiku "<< gravitasi << endl;
     
        }
        void inputdata(){
@@ -25,9 +25,9 @@ class panet{
 };
 int main()
 {
-    Planet venus ;
-    venus.inputdata()
-    cout << "namanya adalah " << venus.nama << endl;
+    Planet venus;
+    venus.inputdata();
+    cout << " nama adalah " << venus.nama << endl;
     cout << "diameter adalah " << venus.diameter << endl;
 
     venus.displaydata();
